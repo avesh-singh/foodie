@@ -7,6 +7,10 @@ RSpec.describe Foodie::Food do
     expect(Foodie::Food.portray("Broccoli")).to eql("Gross!")
   end
 
+  it "potato is great" do
+    expect(Foodie::Food.portray("Potato")).to eql("Great!")
+  end
+
   it "anything else is delicious" do
     expect(Foodie::Food.portray("Not Broccoli")).to eql("Delicious!")
   end
