@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Avesh Singh"]
   spec.email = ["aveshsingh.14157@gmail.com"]
 
-  spec.summary = "Foodie tells you about your food preferences"
+  spec.summary = "Foodie tells you about your food preferences and generates recipes for you"
   # spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "https://www.google.com"
+  spec.homepage = "https://github.com/avesh-singh/foodie"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
